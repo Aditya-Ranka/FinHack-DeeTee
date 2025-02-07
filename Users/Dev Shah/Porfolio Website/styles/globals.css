@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cyberpunk Glow */
+.text-glow {
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #00f;
+}
+
+/* Animated Background */
+.animated-bg {
+  background: linear-gradient(45deg, #111, #222);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+/* Neon Glowing Inputs */
+.input-style {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 2px solid cyan;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .input-style:focus {
+    border-color: #0ff;
+    box-shadow: 0 0 10px #0ff;
+  }
+  
+  /* Glowing Submit Button */
+  .btn-neon {
+    background: transparent;
+    border: 2px solid cyan;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .btn-neon:hover {
+    box-shadow: 0 0 10px cyan;
+  }
+  
