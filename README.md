@@ -1,73 +1,177 @@
-# Welcome to your Lovable project
+# 🌾 FinHack-DeeTee
 
-## Project info
+### Empowering the Rural Backbone Through Smart Market Intelligence
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+FinHack-DeeTee is a **farmer-first digital platform** designed to eliminate information asymmetry in agricultural markets. It helps farmers make **smarter selling decisions** by combining real-time mandi prices, profitability insights, and intuitive decision guidance — all in one simple interface.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Problem Statement
 
-**Use Lovable**
+Farmers often face:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* ❌ Exploitative middlemen
+* ❌ Lack of real-time price information
+* ❌ Hidden transportation costs
+* ❌ Poor market decision-making due to low financial literacy
 
-Changes made via Lovable will be committed automatically to this repo.
+As a result, they frequently sell their produce at **sub-optimal prices**, losing potential income.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💡 Our Solution
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**FinHack-DeeTee** solves this by providing:
 
-Follow these steps:
+✅ Live mandi price insights
+✅ Smart profit calculation (price – transport cost)
+✅ Best market recommendations
+✅ Transparent decision reasoning
+✅ Farmer-friendly UI
+✅ Mobile-first design
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The platform doesn’t just show data — it **guides farmers on what to do next**.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧠 Key Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 🧭 Smart Selling Dashboard
+
+* Location-based market analysis
+* Crop & quantity input
+* Intelligent “Best Market” recommendation
+* Expected price & profit calculation
+
+---
+
+### 📊 Live Mandi Price Intelligence
+
+* Real-time mandi price display
+* Comparison across nearby markets
+* Easy-to-read UI for rural users
+
+---
+
+### 💰 Smart Profitability Engine
+
+Calculates:
+
+```
+Net Profit = Market Price – Transport Cost
+```
+
+Shows farmers where they earn the **most actual money**, not just the highest price.
+
+---
+
+### 🔄 Reverse Auction Concept
+
+* Buyers compete for farmer produce
+* Farmers choose best bid
+* Full transparency
+* Reduces dependency on middlemen
+
+---
+
+### 🌍 Geographic Market Insights
+
+* Visual comparison of nearby mandis
+* Profit-based color indicators
+* Helps farmers choose the best location to sell
+
+---
+
+### 📘 Economic Literacy Hub
+
+Educates farmers on:
+
+* MSP (Minimum Support Price)
+* Market cycles
+* Transport & logistics optimization
+* Smart selling strategies
+
+---
+
+## 🧩 Tech Stack
+
+### Frontend
+
+* **React.js**
+* **Tailwind CSS**
+* Mobile-first responsive design
+* Built using Lovable AI for rapid UI prototyping
+
+### Backend (Planned / Scalable)
+
+* Node.js
+* API-based mandi price ingestion
+* GPS-based profit calculations
+
+### Data Sources
+
+* Open Government Data (OGD) Platform
+* Mock data for prototype demonstration
+
+---
+
+## 🧠 System Flow
+
+```
+User Inputs (Crop, Quantity, Location)
+        ↓
+Mandi Price Fetching
+        ↓
+Profit Calculation Engine
+        ↓
+Best Market Recommendation
+        ↓
+Decision Support Dashboard
+```
+
+---
+
+## 🎯 Why This Project Stands Out
+
+✅ Solves a **real-world rural problem**
+✅ Focuses on **decision-making**, not just data
+✅ Farmer-friendly UX
+✅ Scalable for real-world deployment
+✅ Hackathon-ready with strong impact narrative
+
+---
+
+## 👨‍💻 Team
+
+* **Aditya Ranka** – Lead Developer & Architecture
+* **Krishang** – Backend & API Integration
+* **Dev Shah** – Data Science & Algorithms
+* **Parth Bagal** – UI/UX & Frontend Design
+
+---
+
+## 📦 How to Run Locally
+
+```bash
+git clone https://github.com/your-repo/FinHack-DeeTee
+cd FinHack-DeeTee
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌟 Future Enhancements
 
-**Use GitHub Codespaces**
+* AI-based price prediction
+* Voice support (Hindi & regional languages)
+* Farmer-to-buyer chat
+* Government scheme recommendations
+* Offline-first support
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🏆 Hackathon Vision
 
-This project is built with:
+> “FinHack-DeeTee empowers farmers not just with data, but with clarity, confidence, and control.”
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
