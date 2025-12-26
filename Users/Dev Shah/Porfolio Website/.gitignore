@@ -1,7 +1,0 @@
-# Ignore system & user files
-node_modules/
-.vscode/
-.DS_Store
-package-lock.json
-*.log
-*.env
